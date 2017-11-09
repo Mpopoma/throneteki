@@ -1,15 +1,13 @@
 import React from 'react';
 
-import Link from './Link.jsx';
+import Link from './Link';
+import Panel from './SiteComponents/Panel';
 
 class HowToPlay extends React.Component {
     render() {
         return (
             <div className='col-xs-12 full-height'>
-                <div className='panel-title text-center'>
-                    How To Play on The Iron Throne
-                </div>
-                <div className='panel about-container'>
+                <Panel title='How To Play on The Iron Throne'>
                     <a className='btn btn-danger btn-lg pull-right' target='_blank' href='https://github.com/cryogen/throneteki/issues'>Report Problems</a>
 
                     <p>This guide is aimed at players familiar with the A Game of Thrones: The Card Game 2nd Edition who want to start playing online using The Iron Throne platform. If you are new to this cardgame in general, there is a <a href='https://www.youtube.com/watch?v=A1s54Wlgfyo' target='_blank'>helpful tutorial video</a>, a <a href='https://images-cdn.fantasyflightgames.com/filer_public/ba/2a/ba2a5ea6-a3cd-4772-a603-6f1906f63053/gt01_learn-to-play-web.pdf' target='_blank'>Learn To Play guide</a>, and a <a href='http://thronesdb.com/rulesreference' target='_blank'>Rules Reference Guide</a> to help you out.</p>
@@ -80,7 +78,7 @@ class HowToPlay extends React.Component {
 
                     <h3 id='conceding'>About Stats, Conceding, and Leaving Games</h3>
                     <p>The Iron Throne does not rank and/or match players by skill level in any way. There are three categories (beginner, casual and competitive) to be chosen when creating a game which gives an indication of what to expect, but it doesn't enforce anything. Even though personal stats are not being tracked, most players still very much appreciate a formal concede by clicking the ‘Concede’ button and typing ‘gg’ before leaving a game. The reality of quick and anonymous online games dictates this won’t always happen though, as evidenced by regular complaining in the main lobby about people leaving without conceding. Our advice is to just move on to the next game since in the end, conceding or not doesn’t really impact anything. Happy gaming!</p>
-                </div>
+                </Panel>
             </div>
         );
     }
