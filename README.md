@@ -29,9 +29,6 @@ That's not a question, but that still sucks, sorry :(  First, bear in mind the s
 
 See this document for features I have planned and a link to the currently implemented cards:  http://bit.ly/throneteki
 
-### How do I do X Y Z?
-
-Check out the [About page](https://theironthrone.net/about) of a Throneteki live deployment.
 
 ## Development
 
